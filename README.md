@@ -66,17 +66,17 @@ Example: `yarn cli cipher --help`
 yarn cli prng --type bytes --size 32 --encoding hex
 ```
 
-Example:
+Example with int:
 ```bash
 yarn run cli prng -- --type int --min 0 --max 10
 ```
 
-Example:
+Example with bytes:
 ```bash
 yarn cli prng --type bytes --size 16 --encoding hex
 ```
 
-Example:
+Example with uuid:
 ```bash
 yarn cli prng --type uuid
 ```
