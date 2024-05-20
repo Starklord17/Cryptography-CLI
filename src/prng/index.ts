@@ -29,7 +29,7 @@ const prng = (
   size: number,
   min: number,
   max: number,
-  encoding: BufferEncoding
+  encoding: BufferEncoding = 'hex' // Default to hex encoding
 ) => {
   switch (type) {
     case "bytes":
